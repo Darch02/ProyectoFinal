@@ -1,0 +1,23 @@
+body {
+    background: #ad5389; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.chat-container {
+    background:#eee;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.chat-message {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px; /* Tamaño de fuente para los mensajes del chat */
+}
